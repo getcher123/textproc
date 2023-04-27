@@ -6,7 +6,7 @@ This repository contains a Python script `app.py` that provides a REST API to pr
 
 1. Clone the repository
    ```
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/getcher123/textproc.git
    ```
 2. Install required libraries using pip
    ```
