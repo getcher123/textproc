@@ -22,6 +22,7 @@ def text_processing(json_data, text):
     morph = pymorphy2.MorphAnalyzer()
     result = {}
     json_data = json.loads(json_data)
+    print(json_data)
     text = normalize(text)
     for key, value in json_data.items():
         if "tag:" in value:
