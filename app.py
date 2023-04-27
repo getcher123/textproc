@@ -35,7 +35,9 @@ if __name__ == '__main__':
 @app.route('/textproc', methods=['POST'])
 def textproc():
         print("textproc function")
+        print(request)
         request_data = request.get_json()
+        print(request.get_json())
         text = request_data["text"]
         criteria = request_data["criteria"]
         print(f'{text} {criteria}')
