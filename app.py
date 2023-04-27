@@ -39,6 +39,7 @@ def textproc():
         text = request_data["text"]
         criteria = request_data["criteria"]
         result = text_processing(text, criteria)
+        print (result)
         result = jsonify(result)
         print (result)
         headers = {}
