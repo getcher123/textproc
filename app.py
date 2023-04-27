@@ -41,7 +41,7 @@ def textproc():
         text = request_data["text"]
         criteria = request_data["criteria"]
         print(f'{text} {criteria}')
-        result = text_processing(text, criteria)
+        result = text_processing(criteria, text)
         print (result)
         result = jsonify(result)
         print (result)
